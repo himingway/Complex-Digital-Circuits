@@ -3,8 +3,6 @@
 
 module tb_logarithm (); /* this is automatically generated */
 
-	logic rstb;
-	logic srst;
 	logic clk;
 
 	// clock
@@ -13,7 +11,7 @@ module tb_logarithm (); /* this is automatically generated */
 		forever #(0.5) clk = ~clk;
 	end
 
-	// reset
+	// signals
 	initial begin
 		x = 9'b110110001;
 		start = 1'd1;
